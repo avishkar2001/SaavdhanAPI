@@ -1,4 +1,4 @@
-package com.rebootrebels.savdhaan;
+package com.masterblasters.savdhaan;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;

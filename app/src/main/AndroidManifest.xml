@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.rebootrebels.savdhaan">
+    package="com.masterblasters.savdhaan">
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
@@ -28,11 +28,11 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name="com.rebootrebels.savdhaan.Notification" />
-        <activity android:name="com.rebootrebels.savdhaan.Chat" />
-        <activity android:name="com.rebootrebels.savdhaan.Help" />
+        <activity android:name="com.masterblasters.savdhaan.Notification" />
+        <activity android:name="com.masterblasters.savdhaan.Chat" />
+        <activity android:name="com.masterblasters.savdhaan.Help" />
         <activity
-            android:name="com.rebootrebels.savdhaan.feedback"
+            android:name="com.masterblasters.savdhaan.feedback"
             android:theme="@style/AppTheme.NoActionBar" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -47,16 +47,16 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name="com.rebootrebels.savdhaan.MapsActivity"
+            android:name="com.masterblasters.savdhaan.MapsActivity"
             android:label="@string/title_activity_maps" />
-        <activity android:name="com.rebootrebels.savdhaan.Contacts" />
-        <activity android:name="com.rebootrebels.savdhaan.ProfileActivity" />
-        <activity android:name="com.rebootrebels.savdhaan.Register" />
-        <activity android:name="com.rebootrebels.savdhaan.LoginActivity" />
+        <activity android:name="com.masterblasters.savdhaan.Contacts" />
+        <activity android:name="com.masterblasters.savdhaan.ProfileActivity" />
+        <activity android:name="com.masterblasters.savdhaan.Register" />
+        <activity android:name="com.masterblasters.savdhaan.LoginActivity" />
         <activity
-            android:name="com.rebootrebels.savdhaan.HomeActivity"
+            android:name="com.masterblasters.savdhaan.HomeActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.rebootrebels.savdhaan.MainActivity">
+        <activity android:name="com.masterblasters.savdhaan.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -66,7 +66,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.rebootrebels.android.fileprovider"
+            android:authorities="com.masterblasters.android.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

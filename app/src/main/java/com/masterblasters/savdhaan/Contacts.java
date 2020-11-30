@@ -1,4 +1,4 @@
-package com.rebootrebels.savdhaan;
+package com.masterblasters.savdhaan;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,7 +11,6 @@ import android.widget.Toast;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.firestore.FirebaseFirestore;
 
 public class Contacts extends AppCompatActivity {
     private static String p1, p2, p3;
