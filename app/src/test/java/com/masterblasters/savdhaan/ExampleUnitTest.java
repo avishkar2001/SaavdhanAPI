@@ -1,4 +1,4 @@
-package com.rebootrebels.savdhaan;
+package com.masterblasters.savdhaan;
 
 import org.junit.Test;
 

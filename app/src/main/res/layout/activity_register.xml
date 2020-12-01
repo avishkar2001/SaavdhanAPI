@@ -37,12 +37,20 @@
         android:layout_height="45dp"
         android:layout_marginTop="20dp"
         android:hint="Password" />
+
     <EditText
         android:id="@+id/editText8"
         android:layout_width="match_parent"
         android:layout_height="45dp"
         android:layout_marginTop="20dp"
         android:hint="Phone" />
+
+    <EditText
+        android:id="@+id/aadhaar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:hint="Aadhaar Number" />
 
     <Button
         android:id="@+id/button2"

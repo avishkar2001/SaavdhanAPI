@@ -8,6 +8,35 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:179731452123:android:31cf51a65ede745ffabcfe",
+        "android_client_info": {
+          "package_name": "com.masterblasters.savdhaan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179731452123-r2tujhtlvv49pfncae1lge9vfa62ae8t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmaoLhqQx3_zApLUbX9OqMGtK0ApbyxWI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "179731452123-r2tujhtlvv49pfncae1lge9vfa62ae8t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:179731452123:android:74562176c5507b2cfabcfe",
         "android_client_info": {
           "package_name": "com.rebootrebels.savdhaan"
